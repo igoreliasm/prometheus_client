@@ -3,7 +3,7 @@ prometheus_client
 
 [![Pub Version](https://img.shields.io/pub/v/prometheus_client)][prometheus_client]
 
-This is a simple Dart implementation of the [Prometheus][prometheus] client library, [similar to to libraries for other languages][writing_clientlibs].
+This is a simple Dart implementation of the [Prometheus][prometheus] client library, [similar to libraries for other languages][writing_clientlibs].
 It supports the default metric types like gauges, counters, summaries, or histograms.
 Metrics can be exported using the [text format][text_format].
 To expose them in your server application the package comes with the package [prometheus_client_shelf][prometheus_client_shelf] to integrate metrics with a [shelf][shelf] handler. 
